@@ -1,14 +1,13 @@
 # mydumper
 
-mydumper - высокопроизводительный набор инструментов для многопоточного резервного копирования (и восстановления) MySQL и Drizzle.
-https://github.com/maxbube/mydumper
+[mydumper](https://github.com/maxbube/mydumper) - высокопроизводительный набор инструментов для многопоточного резервного копирования (и восстановления) MySQL и Drizzle.
 
 [hub.docker.com](https://hub.docker.com/r/chatlamin/mydumper)
 
-| Architecture | Tag |
-| :----: | --- |
-| x86-64 | amd64 |
-| armhf | arm |
+| Architecture |
+| :----: |
+| x86-64 |
+| armhf |
 
 ## Запуск
 
@@ -22,10 +21,10 @@ https://github.com/maxbube/mydumper
 
 Пример запуска с копирование БД на хост
 
-    BACKUP_DIR='/PATH/TO/HOST'
+    BACKUP_DIR='/путь/на/хосте'
     TIMESTAMP=$(date '+%d-%m-%Y_%H-%M-%S')
     DB_NAME=имя_бд
-    DB_HOST=ip_адрес_или_dns_name_сервера_бд
+    DB_HOST=ip_address_или_dns_name_сервера_бд
     DB_USER=имя_пользователя_бд
     DB_PASSWORD=пароль_пользователя_бд
 
