@@ -6,4 +6,4 @@ source ../settings.sh
 docker build \
     --build-arg ARCH_ARMHF \
     --tag $IMAGE_STABLE \
-    --file ../Dockerfile .
+    --file ../Dockerfile.armhf .
